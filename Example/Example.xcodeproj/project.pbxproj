@@ -17,6 +17,7 @@
 		04DB76621C1E7BB900776B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DB76601C1E7BB900776B4C /* LaunchScreen.storyboard */; };
 		04FE64871C2C41AE001E8F43 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE64861C2C41AE001E8F43 /* ChatViewController.swift */; };
 		04FE64A71C2D9F75001E8F43 /* ChatLeftMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE64A61C2D9F75001E8F43 /* ChatLeftMessageCell.swift */; };
+		70BF0A882328E9EA003179DE /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF0A872328E9EA003179DE /* ChatViewModel.swift */; };
 		F5ED7D1B70F44D3F5E5DF37A /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EB0B12055698AEA8D71AD4 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		04FE64A61C2D9F75001E8F43 /* ChatLeftMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLeftMessageCell.swift; sourceTree = "<group>"; };
 		0BC031E0076FF375408AD8D1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		33EB0B12055698AEA8D71AD4 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BF0A872328E9EA003179DE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		BE425DD5C76A2598F8AC2CC7 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				04FE64A61C2D9F75001E8F43 /* ChatLeftMessageCell.swift */,
 				04A7EA9F1C362BC4004A40EF /* ChatRightMessageCell.swift */,
 				042448B21C366F2300F6A33E /* ChatMessage.swift */,
+				70BF0A872328E9EA003179DE /* ChatViewModel.swift */,
 				04DB765B1C1E7BB900776B4C /* Main.storyboard */,
 				04DB767C1C1E7C2D00776B4C /* Supporting Files */,
 			);
@@ -225,11 +228,21 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -244,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE64A71C2D9F75001E8F43 /* ChatLeftMessageCell.swift in Sources */,
+				70BF0A882328E9EA003179DE /* ChatViewModel.swift in Sources */,
 				04A7EAA01C362BC4004A40EF /* ChatRightMessageCell.swift in Sources */,
 				04DB765A1C1E7BB900776B4C /* ViewController.swift in Sources */,
 				042448B31C366F2300F6A33E /* ChatMessage.swift in Sources */,

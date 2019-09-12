@@ -3,4 +3,7 @@ use_frameworks!
 
 target 'Example' do
     pod 'CocoaMQTT', :path => '../'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxDataSources'
 end
